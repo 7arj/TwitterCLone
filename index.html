@@ -1,0 +1,33 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Twitter Clone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <img
+        src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/033/original/SST_Logo.png?1706888781"
+        id="sstlogo"
+      />
+      <img
+        src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/032/original/scaler-social.png?1706888764"
+        id="scalerlogo"
+      />
+    </nav>
+    <form id="postForm" onsubmit="event.preventDefault(); addPost();">
+      <img
+        src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/031/original/profile_image.png?1706888739"
+      />
+      <textarea
+        id="postText"
+        placeholder="Type your thoughts here....."
+      ></textarea>
+      <button type="submit">Post</button>
+    </form>
+    <section class="feed" id="feedSection"></section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

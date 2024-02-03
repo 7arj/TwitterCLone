@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  nav {
+    background-color: white;
+    width: 98vw;
+    height: 50px;
+  }
+
+  #postContainer {
+    margin-bottom: 20px;
+  }
+
+  .post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .sstlogo {
+    margin: 30px;
+    float: left;
+  }
+  .scalerlogo {
+    padding: 10px;
+  }
+  #postForm textarea {
+    width: 60vh;
+    height: 50px;
+  }
+  x#sstlogo {
+    float: left;
+  }
+  #scalerlogo {
+    float: right;
+  }
+  .feed {
+    width: 50%;
+    float: right;
+  }
+  .like-comment-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .like-button,
+  .comment-button {
+    cursor: pointer;
+    margin: 10px 0;
+  }
